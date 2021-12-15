@@ -81,12 +81,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 1. Copy the ansible.config file to the /etc/ansible directory within your ansible container as well as desired playbooks. Copy the filebeat.yml and filebeat-config.yml files to /etc/ansible/roles and metricbeat.yml and metricbeat-config.yml to /etc/ansible/metricbeat.
 2. Update the Ansible config file to include all VM IP ranges (webservers and Elk stack VM). Following each entry include the python interpreter: ansible_python_interpreter=/usr/bin/python3
 3. Run the playbooks, and navigate to [yourdocker_containername] to verify the installations.
-4. Open http://ElkServerublicIP:5601/app/kibana in a web browser to view Kibana.
+4. Open http://ElkServerpublicIP:5601/app/kibana in a web browser to view Kibana.
 
 
 -  **install_ELK_stack.yml** is the playbook for installing ELK to the VM in the second subnet. It is copied to and run from the /etc/ansible directory.
 - the **hosts** file must be updated to reflect your IP ranges, as stated above. This information is also entered in the playbooks (as applicable) to be deployed in order to specify the target machines. Use the corresponding virtual machine address information per playbook.
-- Navigate to http://ElkServerublicIP:5601/app/kibana to view logs and metrics.
+- Navigate to http://ElkServerpublicIP:5601/app/kibana to view logs and metrics.
 
 
 ## Ansible configuration and deployment files

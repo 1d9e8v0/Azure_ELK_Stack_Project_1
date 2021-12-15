@@ -4,7 +4,7 @@
 
 ![](diagrams/Final_Diagram_1a.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat. A complete linked list of components can be found at the end of this document. For Azure setup references please refer to the [Asure and Kibana Screens](Azure_and_Kibana_Screens) directory on Github.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat. A complete linked list of components can be found at the end of this document. For Azure setup references please refer to the [Azure and Kibana Screens](Azure_and_Kibana_Screens) directory on Github.
 
 
 ### **This document contains the following details:**

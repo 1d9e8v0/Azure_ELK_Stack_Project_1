@@ -41,7 +41,7 @@ The configuration details of each machine may be found below.
 
 ### **Access Policies**
 
-Only the jump box machine can accept private connections from the internet (excepting the back-end pool virtual machines, as determined by the load-balancer rule set to allow throughput from its public IP address on port 80). Access to the jump box machine is only allowed from the following IP address: 142.254.60.45:22
+Only the jump box machine can accept public connections from the internet (excepting the back-end pool virtual machines), as determined by the load-balancer rule set to allow throughput from its public IP address on port 80). Access to the jump box machine is only allowed from the following IP address: 142.254.60.45:22
 
 A summary of the access policies in place can be found in the table below.
 
